@@ -189,12 +189,6 @@ blockquote {
 	font-family: Roboto-Bold
 }
 
-#article-title {
-	line-height: 35px;
-	font-size: 25px;
-	letter-spacing: -.3px
-}
-
 #first-b {
 	width: 100%;
 	float: none;
@@ -1004,49 +998,6 @@ ol {
 	.sub-button {
 		display: block
 	}
-}
-
-.search {
-	text-align: center;
-	max-width: 1120px;
-	margin: auto;
-	padding: 19px 0 1px
-}
-
-blockquote {
-	font-style: italic;
-	padding: 0 3em;
-	display: inline-block;
-	margin: 20px 0;
-	background-color: #fcfcfc;
-	border: 1px solid #ddd;
-	color: #555;
-	font-size: .94em;
-	border-radius: 4px;
-	line-height: 28px;
-	width: 100%
-}
-
-.content .post-content img {
-	object-fit: scale-down;
-	width: 100%
-}
-
-#article-title {
-	line-height: 45px;
-	font-size: 35px;
-	letter-spacing: -.3px;
-	font-family: Roboto-Bold
-}
-
-.content-section .content {
-	font-size: 17px
-}
-
-#first-b {
-	width: 100%;
-	float: none;
-	padding-top: 30px
 }
 
 input,
