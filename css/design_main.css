@@ -256,13 +256,13 @@ body {
 @font-face {
 	font-family: Roboto;
 	src: url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2);
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
 	font-family: Roboto-Bold;
 	src: url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2);
-	font-display: swap
+	font-display: swap;
 }
 
 li,
