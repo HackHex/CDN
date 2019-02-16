@@ -254,7 +254,7 @@ body {
 }
 
 @font-face {
-	font-family: Roboto-Light;
+	font-family: Roboto;
 	src: url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2);
 	font-display: swap
 }
@@ -277,7 +277,7 @@ html {
 	font-kerning: normal;
 	scroll-behavior: auto;
 	overflow-x: hidden;
-	font-family: Roboto, "Segoe UI", Corbel, "-apple-system", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Roboto;
 	text-rendering: auto;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
