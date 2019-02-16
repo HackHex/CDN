@@ -1,0 +1,23 @@
+{			  
+			"name": "Hack Hex",
+			"short_name": "Hack Hex",
+			"description": "Latest Updates &amp; Insights on Technology",
+			"icons": [
+			    {
+			      "src": "https://cdn.jsdelivr.net/gh/HackHex/CDN/img/icon.png",
+			      "sizes": "192x192",
+			      "type": "image\/png"
+			    },
+			    {
+			      "src": "https://cdn.jsdelivr.net/gh/HackHex/CDN/img/logo.png",
+			      "sizes": "512x512",
+			      "type": "image\/png"
+			    }
+			],
+			"background_color": "#a92323",
+			"theme_color": "#a92323",
+			"display": "standalone",
+			"orientation": "portrait",
+			"start_url": "https://hackhex.com/",
+			"scope": "https://hackhex.com/"
+		}
