@@ -1006,3 +1006,13 @@ ol {
 	margin: 8px 0;
 	box-sizing: border-box;
 }
+
+.speechkit-container{
+	padding-bottom: 10px;
+	padding-top:10px;
+}
+
+.speechkit__external-link{
+	color: #fff;
+	font-size: 0px;
+}
