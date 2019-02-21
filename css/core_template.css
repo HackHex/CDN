@@ -1012,3 +1012,7 @@ ol {
 	color: #fff;
 	font-size: 0px;
 }
+
+.wp-block-table is-style-stripes {
+	width:100%;
+}
