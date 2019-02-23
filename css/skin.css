@@ -292,7 +292,6 @@ html {
 body {
 	-webkit-tap-highlight-color: transparent;
 	-webkit-backface-visibility: hidden;
-	cursor: default;
 	background: #fff3f3;
 	color: #212121;
 	line-height: 29px
@@ -837,17 +836,17 @@ ol {
 }
 
 .email-box h3 {
-	font-size: 25px;
-	font-weight: 500;
-	color: #fff;
-	line-height: 35px
+	font-size: 35px;
+    	font-weight: 900;
+    	color: #fff;
+	text-align: center;
 }
 
 .email-box p {
-	color: #e3b2b2;
-	padding: 0 0 18px;
-	line-height: 24px;
-	font-size: 1.011em
+	color: #fff;
+  	line-height: 24px;
+   	margin: -15px 0 20px;
+	text-align: center;
 }
 
 .email-input {
