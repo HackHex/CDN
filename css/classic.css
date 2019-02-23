@@ -9,6 +9,10 @@ blockquote {
 	font-size: 1.1em;
 }
 
+table {
+	width:100%;
+}
+
 .content .post-content img {
 	object-fit: scale-down;
 	width: 100%;
@@ -1013,8 +1017,4 @@ ol {
 .speechkit__external-link{
 	color: #fff;
 	font-size: 0px;
-}
-
-.wp-block-table .is-style-stripes {
-	width:100%;
 }
