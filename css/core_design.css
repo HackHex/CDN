@@ -396,7 +396,8 @@ ol {
 .ad,
 .content,
 .footer,
-.search {
+.search,
+#comment-box {
 	margin: auto;
 	max-width: 1120px
 }
@@ -453,33 +454,33 @@ ol {
 	50% {
 		-webkit-transform: scale(1.5, 1.5);
 		transform: scale(1.5, 1.5);
-		opacity: 0
+		opacity: 0;
 	}
 	99% {
 		-webkit-transform: scale(.001, .001);
 		transform: scale(.001, .001);
-		opacity: 0
+		opacity: 0;
 	}
 	100% {
 		-webkit-transform: scale(.001, .001);
 		transform: scale(.001, .001);
-		opacity: 1
+		opacity: 1;
 	}
 }
 
 .ad {
-	padding: 25px 35px
+	padding: 25px 35px;
 }
 
 .search-section {
 	background: #fafafa;
-	display: none
+	display: none;
 }
 
 .content-section,
 .footer-section,
 .search input {
-	background: #fff
+	background: #fff;
 }
 
 .search {
@@ -502,7 +503,8 @@ ol {
 }
 
 .content,
-.footer {
+.footer,
+#comment-box {
 	padding: 19px 35px
 }
 
