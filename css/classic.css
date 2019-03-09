@@ -179,20 +179,21 @@ table {
 	border-bottom: 1px dashed #ffd6d6;
 	max-width: 1120px;
 	margin: auto;
-	padding: 19px 35px
+	padding: 19px 35px;
 }
 
 #article-title-b {
 	line-height: 45px;
 	font-size: 35px;
 	letter-spacing: -.3px;
-	font-family: Roboto-Bold
+	font-family: Roboto-Bold;
+	margin-bottom: 5px;
 }
 
 #first-b {
 	width: 100%;
 	float: none;
-	padding-top: 30px
+	padding-top: 30px;
 }
 
 #second-b {
@@ -928,14 +929,13 @@ ol {
 	margin-left: 20px
 }
 
-@media only screen and (min-width :480px) {
+@media only screen and (max-width :480px) {
 	.item-label {
 		font-size:14px;
 	}
 }
 
 .item-label {
-	margin: -15px 0;
 	color: #717171
 }
 
@@ -1013,14 +1013,4 @@ ol {
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
-}
-
-.speechkit-container{
-	padding-bottom: 10px;
-	padding-top:10px;
-}
-
-.speechkit__external-link{
-	color: #fff;
-	font-size: 0px;
 }
