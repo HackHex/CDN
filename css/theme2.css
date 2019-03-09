@@ -17,6 +17,11 @@ table {
 	object-fit: scale-down;
 	width: 100%;
 	height: auto;
+    border-radius: 10px;
+}
+
+.post-content {
+    max-width:730px;
 }
 
 .copyright {
@@ -91,8 +96,7 @@ table {
 }
 
 @media only screen and (min-width :1200px) {
-	.float-share,
-	.right-box {
+	.float-share {
 		display: block
 	}
 }
@@ -187,7 +191,7 @@ table {
 	font-size: 35px;
 	letter-spacing: -.3px;
 	font-family: Roboto-Bold;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 #first-b {
@@ -333,7 +337,7 @@ ul {
 	list-style: none
 }
 
-.content ul,
+.post-content ul,
 .drop-menu,
 .latestposts,
 ol {
@@ -929,14 +933,15 @@ ol {
 	margin-left: 20px
 }
 
+.item-label {
+	color: #717171;
+	margin-bottom: 10px;
+}
+
 @media only screen and (max-width :480px) {
 	.item-label {
 		font-size:14px;
 	}
-}
-
-.item-label {
-	color: #717171
 }
 
 #navigation {
@@ -1013,4 +1018,70 @@ ol {
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
+}
+
+.right-box {
+    display: none;
+}
+
+@media only screen and (min-width: 1120px) {
+.right-box {
+    width: 300px;
+    float: right;
+    padding: 0 0 0 20px;
+}
+}
+
+@media only screen and (min-width: 850px) {
+.right-box {
+    display: none;
+}
+}
+
+@media only screen and (min-width: 1120px) {
+.right-box {
+    display: block;
+}
+}
+
+.sidebar-title {
+    margin: 0 0 10px 0;
+    border-bottom: 4px solid red;
+    font-size: 23px;
+    padding: 0 0 2px;
+    font-weight: 900;
+    display: block;
+    font-family: Roboto-Bold;
+}
+
+.popular-widget {
+    padding-top:15px;
+}
+
+.small-thumb {
+    overflow: hidden;
+    float:left;
+}
+
+.small-thumb img {
+    width: 72px;
+    height: 72px;
+    border-radius: 3px;
+}
+
+.pop-title {
+    color: #444;
+}
+
+.popular-desc {
+    padding-left: 16px;
+    overflow: hidden;
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.pop-article {
+    margin-bottom: 20px;
 }
