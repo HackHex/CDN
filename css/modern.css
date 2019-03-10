@@ -16,8 +16,7 @@ table {
 .content .post-content img {
 	object-fit: scale-down;
 	width: 100%;
-	height: auto;
-    border-radius: 10px;
+    	border-radius: 10px;
 }
 
 .post-content {
