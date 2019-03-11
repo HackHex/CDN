@@ -302,8 +302,8 @@ html {
 body {
 	-webkit-tap-highlight-color: transparent;
 	-webkit-backface-visibility: hidden;
-	background: #fff3f3;
-	color: #fcfcfc;
+	background: #fcfcfc;;
+	color: #000000;
 	line-height: 29px
 }
 
