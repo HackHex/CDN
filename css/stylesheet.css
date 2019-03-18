@@ -511,10 +511,13 @@ ol {
 	}
 }
 
-.content,
-.footer,
 #comment-box {
-	padding: 19px 35px
+	padding: 20px 35px
+}
+
+.content,
+.footer {
+	padding: 1px 35px
 }
 
 .section-1,
@@ -711,14 +714,14 @@ ol {
 	#first {
 		width: 40%;
 		float: left;
-		padding-top: 30px;
+		padding-top: 0px;
 		margin-right: 5%
 	}
 	#second {
 		display: block;
 		width: 55%;
 		float: left;
-		padding-top: 50px
+		padding-top: 40px
 	}
 }
 
