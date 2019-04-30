@@ -14,7 +14,7 @@ table {
 }
 
 .content .post-content img {
-	object-fit: scale-down;
+	object-fit: cover;
 	width: 100%;
 	height: auto;
     	border-radius: 10px;
